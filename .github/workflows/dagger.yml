@@ -14,7 +14,7 @@ jobs:
 
           steps:
               - name: Checkout code
-                uses: action/checkout@v7.0.1
+                uses: actions/checkout@v7.0.1
 
               - name: Setup up Go
                 uses: actions/setup-go@7.0.0
